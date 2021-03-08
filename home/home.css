@@ -1,0 +1,78 @@
+html,body{
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	
+}
+*{
+	font-family:'b nazanin';
+}
+
+.title{
+    direction: rtl;
+    color: darkblue;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    font-size: 60px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+	    border: 2px solid blue;
+		font-family:"b baran";
+		position:relative
+}
+.new_book,
+.export_data,
+.settings{
+	border: 1px solid darkblue;
+    background-color: blue;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+	position:relative;
+}
+.new_book b,
+.export_data b,
+.settings b{
+	color: white;
+	position:absolute;
+	right:20%;
+	top:50%;
+	transform:translateY(-50%);
+	font-size: 50px;
+	direction: rtl;
+	font-family: "b baran";
+	padding:0px;
+	margin:0px;
+}
+.new_book svg,
+.export_data svg,
+.settings svg{
+	position:absolute;
+	width:10%;
+	right:5%;
+	top:50%;
+	transform:translateY(-50%);
+}
+.container{
+	direction:rtl;
+	position:absolute;
+	height:60%;
+	/* background-color:blue; */
+	width:80%;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+/* .my_background{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:white;
+	
+} */

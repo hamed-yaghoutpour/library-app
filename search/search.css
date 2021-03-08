@@ -1,0 +1,121 @@
+html,body{
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	
+}
+*{
+	font-family:'b nazanin';
+}
+.buttons_container{
+	    position: absolute;
+    top: 360px;
+    height: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}
+.show_all_books_button,.search_input,.search_button{
+    position: relative;
+    background-color: blue;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+	width:100%;
+	height:100px;
+	margin-bottom:20px;
+	text-align:center;
+}
+.search_input{
+	display:none;
+}
+.sep_line{
+	width:100%;
+	height:4px;
+	border-bottom:2px solid aqua;
+	margin-bottom:10px;
+	
+}
+.container{
+	position: absolute;
+    top: 1030px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 90%;
+    border-radius: 8px;
+    min-height: 670px;
+	border:1px solid blue;
+}
+.result {
+	width:100%;
+	direction:rtl;
+	position:relative;
+	min-height:400px;
+	border-radius:10px;
+	background-color:blue;
+	    padding: 10px;
+		margin-bottom: 25px;
+}
+.result .counter{
+	background-color: green;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 80px;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.result .name
+,.result .translator
+,.result .publication
+,.result .key_words
+,.result .ex_info
+,.result .writer{
+    direction: rtl;
+    background-color: green;
+	    border: 1px solid darkblue;
+    top: 10px;
+    position: relative;
+    right: 150px;
+    color: white;
+    font-size: 40px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+	margin-bottom:25px;
+	padding:12px;
+}
+.for_empty_container{
+	position: absolute;
+    top: 50%;
+    background-color: blue;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    direction: rtl;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 14px;
+}
+.my_background{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:purple;
+	
+}
+
+
+

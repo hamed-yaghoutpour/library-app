@@ -1,0 +1,96 @@
+html,body{
+	height:100%;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	
+}
+*{
+	font-family:'b nazanin';
+}
+
+form{
+	position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80%;
+    width: 80%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.main_title{
+	    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 11%;
+    border-radius: 10px;
+    font-size: 60px;
+    direction: rtl;
+    padding-right: 20px;
+}
+
+
+form .input{
+	display: block;
+    width: 100%;
+    height: 8%;
+    margin: 1%;
+    direction: rtl;
+	position:relative;
+}
+form .input h1{
+	position: absolute;
+    height: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    color: darkblue;
+    background-color: aqua;
+    margin: 0px;
+    border-radius: 5px;
+    width: 15%;
+    padding: 10px;
+    font-family: "b baran";
+}
+form .input input{
+	position:absolute;
+	height:100%;
+	top:50%;
+	transform:translateY(-50%);
+	right:20%;
+	width:80%;
+	border:2px solid darkblue;
+	border-radius:7px;
+	font-size:40px;
+}
+form button{
+	display: block;
+    width: 100%;
+    height: 8%;
+    margin: 1%;
+    border: 2px solid gray;
+    border-radius: 11px;
+    direction: rtl;
+    padding: 5px;
+    font-size: 50px;
+    padding-right: 20px;
+    padding-left: 0px;
+	
+	
+	
+	 background-color: blue;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 5px;
+    padding-right: 20px;
+    padding-left: 0px;
+	width:100%;
+
+}
